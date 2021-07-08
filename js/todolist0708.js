@@ -43,9 +43,6 @@
 
       $('.select').on('dblclick', function(e) {
           window.getSelection() ? window.getSelection().removeAllRanges() : document.selection.empty();
-          //   console.log(window.getSelection());
-          //   console.log(document.selection);
-          //   console.log(window.getSelection().getRangeAt(0).text());
       })
   })
 
