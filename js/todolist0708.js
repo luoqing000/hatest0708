@@ -47,7 +47,7 @@
   })
 
   function editContents(id, _this) {
-      console.log(id);
+      // console.log(id);
       var str = _this.innerHTML;
       // 双击禁止选定文字
       window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
